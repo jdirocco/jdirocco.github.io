@@ -45,6 +45,3 @@ I am reviewer for:
 
 
 
-<div class='jekyll-twitter-plugin' align="center">
-    {% twitter https://twitter.com/juridirocco maxwidth=500 limit=5 %}
-</div>

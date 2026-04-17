@@ -91,7 +91,19 @@ highlighter: pygments
 
 # Includes & excludes
 include: ['_pages']
-exclude: [vendor]
+exclude:
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - "*.tex"
+  - "*.aux"
+  - "*.log"
+  - "*.out"
+  - "*.toc"
+  - "*.fdb_latexmk"
+  - "*.fls"
+  - "*.synctex.gz"
+  - latex/
 
 # Plug-ins
 plugins:
