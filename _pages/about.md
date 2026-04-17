@@ -2,64 +2,49 @@
 layout: about
 permalink: /
 title: Juri <strong>Di Rocco</strong> 
-description: <table><tr><td><a href="http://www.univaq.it"> <img src="http://scienzeumane.univaq.it/fileadmin/templates/facoltas/img/def-logo-scienze-umane.png" height="80" alt="Universit&#224; degli studi dell'Aquila"></img></a></td><td><a href="https://www.disim.univaq.it/"><img src="assets/img/disim.png" alt="DISIM" height="80"></img></a></td></tr></table> 
+description: <table><tr><td><a href="http://www.univaq.it"> <img src="http://scienzeumane.univaq.it/fileadmin/templates/facoltas/img/def-logo-scienze-umane.png" height="80" alt="Università degli studi dell'Aquila"></img></a></td><td><a href="https://www.disim.univaq.it/"><img src="assets/img/disim.png" alt="DISIM" height="80"></img></a></td></tr></table> 
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>Edificio Alan Turing </p>
-    <p>Office R2XX</p>
+    <p>Edificio Alan Turing</p>
     <p>Via Vetoio 67100</p>
     <p>L'Aquila, Italy</p>
 
 news: true
 social: true
 ---
-I am currently a postdoctoral researcher at  the  [Department  of  Information  Engineering  Computer Science  and  Mathematics](http://www.disim.univaq.it)  of  the  [University  of  L'Aquila](http://www.univaq.it/). Previously, I obtained a PhD degree from tthe  <a href="http://www.univaq.it/" target="_blank">University  of  L'Aquila</a> in the MDEGropup research team with [Alfonso Pierantonio](http://pieranton.io) and [Davide Di Ruscio](www.di.univaq.it/diruscio). I am interested in all aspects of software language engineering. My main  research  interests  are    related  to several  aspects  of  Model  Driven  Engineering  (MDE)  including  **domain specific  modelling  languages**, 
-**model transformation**, **model differencing**, **modelling repositories** and **mining software repositories and communities**. 
+I am a tenure-track Assistant Professor (RTD/B) at the [Department of Information Engineering, Computer Science and Mathematics (DISIM)](http://www.disim.univaq.it) of the [University of L'Aquila](http://www.univaq.it/), in the Academic Recruitment Field 01/B1 – Informatics (INFO-01/A). I hold the **Italian National Scientific Qualification as Associate Professor** (ASN 2021/2023, valid 12/12/2023 – 12/12/2035).
 
-I am reviewer of the following international journals:
+I am the Lead of the **[MODES Laboratory](https://modes-laboratory.github.io/)** (MOdeling & Data Engineering in Software systems) and a member of the **SWEn Research Group** at DISIM. I obtained my PhD from the University of L'Aquila under the supervision of [Alfonso Pierantonio](http://pieranton.io) and [Davide Di Ruscio](http://www.di.univaq.it/diruscio).
 
-* [SoSyM](https://www.springer.com/journal/10270?gclid=Cj0KCQiA-bjyBRCcARIsAFboWg0LfldXmRAG78DpfkxN8evfjHFudP_WUxLs__XhSKVjywRfj2A59dIaAu9wEALw_wcB), 
-* [JOT](https://jot.fm), 
-* [SCICO](https://www.journals.elsevier.com/science-of-computer-programming), 
-* [TSE](https://www.computer.org/csdl/journal/ts), and 
+My research interests include **Software Engineering**, **Model-Driven Engineering** (MDE), **Mining Software Repositories**, and **Recommender Systems for Software Engineering**. More recently, my work has focused on the application of **Large Language Models** (LLMs) and **Deep Learning** to software engineering problems, including technical debt detection, energy efficiency of model transformations, and cloud-based modeling platforms. I have authored over **80 publications** in international journals, conferences, and workshops.
+
+I am a PC member of **ICSE 2026**, **ICSE 2027**, and **MODELS 2026**, and Workshops & Tutorials Co-Chair of **SANER 2026**. I served as keynote speaker at LLM4MDE 2024. I am involved in the EU projects **[MOSAICO](https://mosaico-project.eu/)** (Horizon Europe, since 2025) and **[AIM-PRO](https://aim-pro.eu/)** (since 2026, WP2 Leader), and previously in CROSSMINER, TYPHON, and EMELIOT (PRIN 2021).
+
+I am reviewer for:
+
+* [SoSyM](https://www.springer.com/journal/10270),
+* [TSE](https://www.computer.org/csdl/journal/ts),
+* [IST](https://www.journals.elsevier.com/information-and-software-technology),
+* [EMSE](https://link.springer.com/journal/10664),
+* [SCICO](https://www.journals.elsevier.com/science-of-computer-programming), and
 * [IEEE Software](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=52)
 
-and I am involved in various committees of popular conferences in the field:
+### Selected recent publications:
 
-* [MODELS (Tools and Demo)](https://modelsconf2018.github.io/calls/tools-and-demos/),
-* [FlexMDE](http://events.disim.univaq.it/flexmde/),
-* [CommitMDE](http://events.disim.univaq.it/commitmde2019/),
-* [SLE Artifact Evaluation](http://www.sleconf.org/2019/ArtifactEvaluation.html),
-* [MobileSoft - Student Competition](https://mobilesoftconf.org/2018/student-research-competition/),
-* [SATToSE](http://sattose.org/), and
-* [SAC](https://www.sigapp.org/sac/sac2017/)
+* Duc S. H. Nguyen et al., *Automated Summarization of Software Documents: An LLM-based Multi-Agent Approach*, **Automated Software Engineering (ASE)**, 2026.
+* Juri Di Rocco et al., *On the use of large language models in model-driven engineering*, **Software and Systems Modeling (SoSyM)**, 2025.
+* Francesca Arcelli Fontana et al., *Binary and multi-class classification of Self-Admitted Technical Debt*, **Information and Software Technology (IST)**, 2025.
+* Claudio Di Sipio et al., *LEV4REC: A feature-based approach to engineering RSSEs*, **Journal of Computer Languages (COLA)**, 2024. **Best Paper Award.**
+* Phuong T. Nguyen et al., *GPTSniffer: A CodeBERT-based classifier to detect source code written by ChatGPT*, **Journal of Systems and Software (JSS)**, 2024.
+* Juri Di Rocco et al., *DeepMig: A transformer-based approach to support coupled library and code migrations*, **IST**, 2024.
+* Costanza Alfieri et al., *Exploring user privacy awareness on GitHub: an empirical study*, **EMSE**, 2024.
+* Phuong T. Nguyen et al., *CrossRec: Supporting Software Developers by Recommending Third-party Libraries*, **JSS**, 2020. **Best Paper Award.**
 
 
-### Selected publications:
-
-* Automated Classification of Metamodel Repositories: A Machine Learning Approach Nguyen, P. T., Di Rocco, J., Di Ruscio, D., Pierantonio, A., and Iovino, L. In 2019 ACM/IEEE 22nd International Conference on Model Driven Engineering Languages and Systems (MODELS) 2019 - **Best papers of MODELS'19**
-* Focus: A recommender system for mining api function calls and usage patterns
-Nguyen, Phuong T, Di Rocco, Juri, Di Ruscio, Davide, Ochoa, Lina, Degueule, Thomas, and Di Penta, Massimiliano 
-* Automated Reuse of Model Transformations through Typing Requirements Models
-Lara, Juan De, Guerra, Esther, Ruscio, Davide Di, Di Rocco, Juri, Cuadrado, Jesús S´nchez, Iovino, Ludovico, and Pierantonio, Alfonso
-ACM Trans. Softw. Eng. Methodol. 2019
-* Automated Clustering of Metamodel Repositories Basciani, Francesco, Di Rocco, Juri, Di Ruscio, Davide, Iovino, Ludovico, and Pierantonio, Alfonso In International Conference on Advanced Information Systems Engineering 2016
-
- 
 
 <div class='jekyll-twitter-plugin' align="center">
     {% twitter https://twitter.com/juridirocco maxwidth=500 limit=5 %}
 </div>
-
-
-
-<!--
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
--->
