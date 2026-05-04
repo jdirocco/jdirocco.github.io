@@ -1,33 +1,28 @@
 @charset "UTF-8";
-html{
+
+html {
     margin-left: calc(100vw - 100%);
     margin-right: 0;
+    scroll-behavior: smooth;
 }
 
 html, body {
-  height: auto;
-  min-height: 100%;
-  -webkit-text-size-adjust: 100%;
+    height: auto;
+    min-height: 100%;
+    -webkit-text-size-adjust: 100%;
 }
 
 img {
-  max-width: none;
-}
-
-em img {
-  max-width: 100%;
-  margin-left: 0;
+    max-width: 100%;
 }
 
 body {
-          box-sizing: border-box;
-     -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: $background-color;
 }
 
 .wrapper {
-    max-width: -webkit-calc(800px - (#{$horizontal-spacing-unit} * 2));
-    max-width:         calc(800px - (#{$horizontal-spacing-unit} * 2));
+    max-width: calc(900px - (#{$horizontal-spacing-unit} * 2));
     margin-right: auto;
     margin-left: auto;
     padding-right: $horizontal-spacing-unit;

@@ -1,88 +1,131 @@
 .publications {
     h2 {
-        color: $theme-color;
-        // border-bottom: 1px solid $theme-color;
-        // border-top: 1px solid $theme-color;
-        font-size: 32px;
-        margin-bottom: 30px;
-        // padding: 20px 0;
+        color: $navy;
+        font-size: 1.75rem;
+        margin-bottom: 2rem;
         text-align: center;
     }
 }
+
 .year {
-    border-top: 1px solid $light-gray;
-    color: $light-gray;
-    margin: 0 -3em -2.5ex -2em;
-    padding-top: 1ex;
-    text-align: right;
+    display: inline-block;
+    background: $navy;
+    color: $white;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 3px 12px;
+    border-radius: 20px;
+    margin: 2rem 0 1rem 0;
 }
+
 .bibliography {
-    margin-bottom: 50px;
-    margin-top: 20px;
-    list-style-type: circle;
+    margin-bottom: 2rem;
+    margin-top: 0.5rem;
+    list-style: none;
+    padding-left: 0;
 
     li {
-        margin: 10px 0;
+        margin: 0 0 1.25rem 0;
+        padding: 1rem 1.25rem;
+        border: 1px solid $border-light;
+        border-radius: $border-radius;
+        background: $white;
+        transition: box-shadow 0.15s ease, border-color 0.15s ease;
         position: relative;
 
+        &:hover {
+            box-shadow: 0 4px 16px rgba(0,0,0,0.07);
+            border-color: $blue-light;
+        }
+
         span { display: block; }
-        .title { font-weight: bolder; }
+
+        .title {
+            font-weight: 600;
+            color: $navy;
+            font-size: 0.9375rem;
+            margin-bottom: 0.25rem;
+        }
+
         .author {
+            font-size: 0.875rem;
+            color: $mid-gray;
+            margin-bottom: 0.2rem;
+
             a {
-                border-bottom: 1px dashed $theme-color;
+                color: $blue;
+                border-bottom: 1px dashed $blue-light;
                 &:hover {
                     border-bottom-style: solid;
                     text-decoration: none;
+                    color: $navy;
                 }
             }
             > em {
-                border-bottom: 1px solid;
                 font-style: normal;
+                font-weight: 600;
+                color: $navy;
+                border-bottom: 2px solid $accent;
+                padding-bottom: 1px;
             }
         }
+
+        .periodical {
+            font-size: 0.8125rem;
+            color: $light-gray;
+            font-style: italic;
+        }
+
+        .links {
+            margin-top: 0.5rem;
+            font-size: 0.8125rem;
+
+            a {
+                color: $blue;
+                margin-right: 8px;
+                &:hover { color: $navy; }
+            }
+        }
+
         a.abstract, a.bibtex { cursor: pointer; }
+
         .hidden {
             font-size: $small-font-size;
-            max-height: 0px;
+            max-height: 0;
             overflow: hidden;
-            text-align: justify;
-            -webkit-transition: 0.15s ease;
-            -moz-transition: 0.15s ease;
-            -ms-transition: 0.15s ease;
-            -o-transition: 0.15s ease;
-            transition: all 0.15s ease;
+            -webkit-transition: 0.2s ease;
+            transition: all 0.2s ease;
 
             p {
-                line-height: 1.4em;
+                line-height: 1.5;
                 margin: 10px;
-            }
-            pre {
-                font-size: 1em;
-                line-height: 1.4em;
-                padding: 10px;
+                color: $mid-gray;
             }
         }
+
         .hidden.open {
             max-height: 100em;
-            -webkit-transition: 0.15s ease;
-            -moz-transition: 0.15s ease;
-            -ms-transition: 0.15s ease;
-            -o-transition: 0.15s ease;
-            transition: all 0.15s ease;
+            -webkit-transition: 0.2s ease;
+            transition: all 0.2s ease;
         }
+
         span.abstract.hidden {
-            border: dashed 1px $background-color;
-        }
-        span.abstract.hidden.open {
-            border-color: $grey-color;
+            border: none;
+            background: $off-white;
+            border-radius: 6px;
+            margin-top: 8px;
         }
     }
+
     abbr {
         position: absolute;
-            left: -7em;
+        left: -7em;
     }
- }
+}
+
 .star {
-    color: $theme-color;
+    color: $accent;
     font-style: normal;
 }

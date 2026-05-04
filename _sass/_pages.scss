@@ -1,14 +1,78 @@
 .page-content {
-    padding: 100px 0; /* VERTICAL PADDING FOR TITLE ON EVERY PAGE */
+    padding: 96px 0 80px;
 }
+
 .page-heading {
-    font-size: 20px;
+    font-size: 1.25rem;
 }
+
+.post-header {
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid $border-light;
+
+    .post-title {
+        font-size: 2rem;
+        font-weight: 700;
+        color: $navy;
+        letter-spacing: -0.5px;
+        margin-bottom: 0.5rem;
+
+        strong { color: $accent; }
+    }
+
+    .post-description {
+        color: $mid-gray;
+        font-size: 0.9375rem;
+        font-weight: 400;
+        margin-bottom: 0;
+    }
+}
+
+.post-content {
+    h3 {
+        font-size: 1.1rem;
+        font-weight: 700;
+        color: $navy;
+        margin-top: 2rem;
+        margin-bottom: 0.75rem;
+        padding-bottom: 0.4rem;
+        border-bottom: 2px solid $border-light;
+    }
+
+    h4 {
+        font-size: 1rem;
+        font-weight: 600;
+        color: $mid-gray;
+        margin-top: 1.25rem;
+        margin-bottom: 0.5rem;
+    }
+
+    ul li, ol li {
+        color: $mid-gray;
+    }
+
+    strong { color: $dark-gray; }
+}
+
 .contacticon {
-    display: block;
-    font-size: 60px;
-    margin: 10px;
+    display: inline-block;
+    font-size: 1.6rem;
+    margin: 6px 8px;
+    color: $mid-gray;
+    transition: color 0.15s ease, transform 0.15s ease;
+
+    &:hover {
+        color: $navy;
+        transform: translateY(-2px);
+        text-decoration: none;
+    }
 }
-.center{
-    text-align: center;
+
+.center { text-align: center; }
+
+hr {
+    border: none;
+    border-top: 2px solid $border-light;
+    margin: 2rem 0;
 }
